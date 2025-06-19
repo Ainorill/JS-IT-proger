@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;}
+
+a {text-decoration: none;}
+
+.header {
+    display: block;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding: 10px 0; 
+    background-color: #3D3D3D;
+    border-bottom: 5px solid #707070;
+}
+
+.all_header {
+    width: 70%;
+    margin: 1% 15%;
+}
+
+.logo {
+    float: left;
+    font-size: 35px;
+    color: brown;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 200px;
+}
+
+.header_menu {
+    float: left;
+    text-align: center;
+}
+
+.h_link {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.h_link:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.h_search {
+    width: 200px;
+    height: 30px;
+    text-indent: 5px;
+    margin-left: 70px;
+}
+
+.main {
+    display: block;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: white;
+}
+
+.column1 {
+    vertical-align: top;
+    text-align: center;
+    width: 65%;
+    padding: 20px;
+} 
+
+
+.column2 {
+    vertical-align: top;
+    text-align: left;
+    width: 35%;
+    padding: 20px;
+} 
+
+.text {
+    border: solid 1px;
+    background-color: #F5F5F5;
+    padding: 50px;
+    box-shadow: 0px 2px 2px 0px rgba(62, 41, 41, 0.25);
+}
+
+.title {
+    color: #D97979;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.paragraph {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #3D3D3D; 
+    border-top: solid 5px#707070;
+}
+
+.f_text {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.all_f_link {
+    text-align: center;
+}
+
+.f_link {
+    display: inline-block;
+    font-size: 20px; 
+    color: white;
+    font-weight: 200;
+    margin-right: 30px;
+    border: solid 1px none;
+    border-radius: 5px ;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.f_link:hover {
+    color: wheat;
+    cursor: pointer;
+}
+
+.f_link:first-of-type {
+    background-color: #D97979;
+}
+
+.f_link:nth-of-type(2) {
+    background-color:aqua ;
+}
+
+.f_link:nth-of-type(3) {
+    background-color: blue;
+}
+
+.f_link:last-of-type {
+    background-color: brown;
+}
+
+.f_scription {
+    color: white;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+    
