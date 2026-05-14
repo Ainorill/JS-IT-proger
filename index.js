@@ -1,1 +1,1 @@
-alert ("Hello, World!");
+result = prompt(title, [default]);
